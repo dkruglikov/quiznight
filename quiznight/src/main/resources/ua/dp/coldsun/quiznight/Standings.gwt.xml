@@ -4,5 +4,6 @@
 	<inherits name="com.google.gwt.json.JSON"/>
 	<source path="client"/>
 	<source path="model"/>
+	<resource path="data"/>
 	<entry-point class="ua.dp.coldsun.quiznight.client.StandingsView"/>
 </module>
