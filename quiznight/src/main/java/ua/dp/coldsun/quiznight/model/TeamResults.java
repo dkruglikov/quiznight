@@ -1,6 +1,7 @@
 package ua.dp.coldsun.quiznight.model;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -95,5 +96,18 @@ public class TeamResults extends JavaScriptObject {
 			totalBest += results.get(i);
 		}
 		return totalBest;
+	}
+	
+	public final float getCountableMinimum() {
+		float[] results = getResults();
+		if (results.length == 0) {
+			return 0;
+		}
+		List<Float> resultsList = new ArrayList<>(results.length);
+		for (float result : results) {
+			resultsList.add(result);
+		}
+		Collections.sort(resultsList);
+		return resultsList.get(Math.min(resultsList.size() - 1, DAYS_WORST_COUNT));
 	}
 }
