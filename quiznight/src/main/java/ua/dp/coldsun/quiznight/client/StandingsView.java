@@ -99,6 +99,8 @@ public class StandingsView implements EntryPoint {
 						table.addColumn(COLUMN_TOTAL_BEST_TO_WORST, "Best to Worst");
 					} else if (isBestToWorstSelected(table)) {
 						ColumnSortEvent.fire(table, table.getColumnSortList());
+					} else {
+						table.redraw();
 					}
 				}
 			}
