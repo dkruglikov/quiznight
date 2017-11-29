@@ -1,23 +1,26 @@
-{"name":"Noname","results":[59.5]}
-{"name":"Ordem e Progresso","results":[50.5]}
-{"name":"Please, Quiz Me","results":[42.5]}
-{"name":"STEREOтипы","results":[51]}
-{"name":"Sitecore","results":[54.5]}
-{"name":"Алебастровые Лупы","results":[48.5]}
-{"name":"Альрауне","results":[54]}
-{"name":"Бахус-crew","results":[50.5]}
-{"name":"Бредоносные Заразиты","results":[44.5]}
-{"name":"Герман Титов","results":[47]}
-{"name":"ДК","results":[50]}
-{"name":"Команда им. Большого Лебовски","results":[40.5]}
-{"name":"Порапобарам","results":[48]}
-{"name":"Синие Волки","results":[57]}
-{"name":"Скрытый Потанцевал","results":[42]}
-{"name":"Слон Редкий, Полосатый","results":[58]}
-{"name":"Сова из Оргстекла","results":[55]}
-{"name":"Татаро-монгольская лига","results":[55.5]}
-{"name":"Ужениновички","results":[48.5]}
-{"name":"Уклюжие Роботы","results":[54.5]}
-{"name":"Упоротая Пятница","results":[54.5]}
-{"name":"ЫЫЫ","results":[49]}
-{"name":"Якуман","results":[37.5]}
+{"name":"Noname","results":[59.5,58]}
+{"name":"Ordem e Progresso","results":[50.5,44.5]}
+{"name":"Please, Quiz Me","results":[42.5,42.5]}
+{"name":"STEREOтипы","results":[51,53]}
+{"name":"Sitecore","results":[54.5,39.5]}
+{"name":"Strong Bizkit","results":[0,33.5]}
+{"name":"Алебастровые Лупы","results":[48.5,57.5]}
+{"name":"Альрауне","results":[54,53]}
+{"name":"Бахус-crew","results":[50.5,54]}
+{"name":"Бредоносные Заразиты","results":[44.5,55.5]}
+{"name":"Герман Титов","results":[47,42]}
+{"name":"ДК","results":[50,58]}
+{"name":"Команда им. Большого Лебовски","results":[40.5,0]}
+{"name":"Крошки","results":[0,30.5]}
+{"name":"Омерзительная Шестёрка","results":[0,46]}
+{"name":"Порапобарам","results":[48,45]}
+{"name":"Синие Волки","results":[57,50]}
+{"name":"Скрытый Потанцевал","results":[42,39.5]}
+{"name":"Слон Редкий, Полосатый","results":[58,59]}
+{"name":"Сова из Оргстекла","results":[55,60.5]}
+{"name":"Татаро-монгольская лига","results":[55.5,44.5]}
+{"name":"Ужениновички","results":[48.5,48.5]}
+{"name":"Уклюжие Роботы","results":[54.5,48]}
+{"name":"Упоротая Пятница","results":[54.5,56.5]}
+{"name":"ЫЫЫ","results":[49,0]}
+{"name":"Якуман","results":[37.5,43]}
