@@ -109,4 +109,17 @@ public class TeamResults extends JavaScriptObject {
 		Collections.sort(resultsList);
 		return resultsList.get(Math.min(resultsList.size() - 1, DAYS_WORST_COUNT));
 	}
+	
+	public final float getUncountableMaximum() {
+		float[] results = getResults();
+		if (results.length < 3) {
+			return 0;
+		}
+		List<Float> resultsList = new ArrayList<>(results.length);
+		for (float result : results) {
+			resultsList.add(result);
+		}
+		Collections.sort(resultsList);
+		return resultsList.size() == 3 ? resultsList.get(0) : resultsList.get(1);
+	}
 }

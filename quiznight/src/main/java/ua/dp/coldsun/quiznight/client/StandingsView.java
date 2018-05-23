@@ -73,6 +73,7 @@ public class StandingsView implements EntryPoint {
 			}
 		});
 		sortHandler.setComparator(COLUMN_TOTAL_BEST_TO_WORST, COMPARATOR_BEST_TO_WORST);
+		table.addColumn(createUncountableMaxColumn(), "Uncount. Max.");
 		table.addColumn(createCountableMinColumn(), "Count. Min.");
 		table.addColumnSortHandler(sortHandler);
 		table.getColumnSortList().push(totalBestColumn);
@@ -195,6 +196,17 @@ public class StandingsView implements EntryPoint {
 			@Override
 			public Number getValue(TeamResults object) {
 				return object.getCountableMinimum();
+			}
+		};
+		return column;
+	}
+	
+	private Column<TeamResults, Number> createUncountableMaxColumn() {
+		Column<TeamResults, Number> column = new Column<TeamResults, Number>(new NumberCell()) {
+
+			@Override
+			public Number getValue(TeamResults object) {
+				return object.getUncountableMaximum();
 			}
 		};
 		return column;
